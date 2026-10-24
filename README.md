@@ -28,7 +28,7 @@ Le journal d’événements est **chaîné par SHA-256**, avec une tête de cha�
 | **Agent raccordé** | EAS décide et audite les actions qui empruntent ses interfaces. Les autres chemins doivent être raccordés ou limités par l’environnement. |
 | **Processus géré** | EAS lance un processus prévu par une politique signée sous un profil Windows restreint. Des refus OS et l’identité d’un processus enfant ont été observés en laboratoire ; le confinement complet d’un agent tiers reste à qualifier. |
 
-Elyne Cyber est une défense locale complémentaire dans un service séparé. Elyne Red Unifiée est **fournie avec EAS** pour éprouver le dispositif dans un périmètre autorisé. Elyne Lab Director est un **produit distinct** qui vérifie les prérequis du laboratoire et consolide les résultats de campagne.
+[Elyne Cyber](https://github.com/deharoalexandre-cyber/Elyne-Cyber) est une défense locale complémentaire dans un service séparé. [Elyne Red Unifiée](https://github.com/deharoalexandre-cyber/Elyne-Red-Unified) est **fournie avec EAS** pour éprouver le dispositif dans un périmètre autorisé. [Elyne Lab Director](https://github.com/deharoalexandre-cyber/Elyne-Lab-Director) est un **produit distinct** qui vérifie les prérequis du laboratoire et consolide les résultats de campagne.
 
 ## Résultats publiables
 

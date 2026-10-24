@@ -28,7 +28,7 @@ Ledger events are **SHA-256 hash chained**, with the chain tip checked against a
 | **Connected agent** | EAS decides and audits actions routed through its interfaces. Other paths must be connected or restricted by the environment. |
 | **Managed process** | EAS launches a process specified by a signed policy under a restricted Windows profile. OS denials and a child process identity have been observed in the lab; full confinement of a third-party agent remains to be qualified. |
 
-Elyne Cyber is a complementary local defense running as a separate service. Elyne Red Unified is **supplied with EAS** to test it within an authorized scope. Elyne Lab Director is a **separate product** that checks laboratory prerequisites and consolidates campaign results.
+[Elyne Cyber](https://github.com/deharoalexandre-cyber/Elyne-Cyber) is a complementary local defense running as a separate service. [Elyne Red Unified](https://github.com/deharoalexandre-cyber/Elyne-Red-Unified) is **supplied with EAS** to test it within an authorized scope. [Elyne Lab Director](https://github.com/deharoalexandre-cyber/Elyne-Lab-Director) is a **separate product** that checks laboratory prerequisites and consolidates campaign results.
 
 ## Public results
 
