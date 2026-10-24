@@ -1,0 +1,23 @@
+# A public documentation repository must remain free of product artefacts.
+# This file is a convenience, not a substitute for review before publication.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.db
+*.sqlite*
+*.log
+*.zip
+*.7z
+*.whl
+*.exe
+*.msi
+*.vmem
+*.vmdk
+*.vmsd
+*.vmsn
+__pycache__/
+build/
+dist/
