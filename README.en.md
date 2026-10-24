@@ -1,10 +1,12 @@
 # EAS Defense
 
+**Languages: English · [Français](README.md)**
+
 **The agent proposes. EAS checks permissions, decides before the action, and retains evidence.**
 
 EAS Defense is Elyne Corp’s local control plane for agentic systems. It combines identities, capabilities, a signed policy, action mediation, and a verifiable ledger. Windows **R45** is available for assisted technical evaluation. The Linux port is still undergoing laboratory qualification.
 
-**Français :** [README.md](README.md) · [EAS Defense website](https://elynecorp.com/eas-defense.html) · [Contact](mailto:admin@elynecorp.fr?subject=EAS%20Defense%20evaluation)
+**Website:** [EAS Defense](https://elynecorp.com/eas-defense.html) · [Contact](mailto:admin@elynecorp.fr?subject=EAS%20Defense%20evaluation)
 
 ![Public overview of the EAS architecture](assets/architecture-en.png)
 

@@ -1,10 +1,12 @@
 # EAS Défense
 
+**Langues : Français · [English](README.en.md)**
+
 **L’agent propose. EAS vérifie les droits, décide avant l’action et conserve la preuve.**
 
 EAS Défense est le plan de contrôle local d’Elyne Corp pour les systèmes agentiques. Il associe identités, capacités, politique signée, médiation des actions et journal vérifiable. La version Windows **R45** est proposée en évaluation technique accompagnée. Le port Linux poursuit sa qualification de laboratoire.
 
-**English:** [README.en.md](README.en.md) · [Site EAS Défense](https://elynecorp.fr/eas-defense.html) · [Contact](mailto:admin@elynecorp.fr?subject=Evaluation%20EAS%20Defense)
+**Site :** [EAS Défense](https://elynecorp.fr/eas-defense.html) · [Contact](mailto:admin@elynecorp.fr?subject=Evaluation%20EAS%20Defense)
 
 ![Vue d’ensemble publique de l’architecture EAS](assets/architecture-fr.png)
 
