@@ -2,6 +2,10 @@
 
 **Langues : Français · [English](README.en.md)**
 
+**Documentation propriétaire — tous droits réservés ; aucun réemploi hors des fonctions GitHub sans accord écrit des titulaires des droits.** [Notice de droits](NOTICE.md).
+
+[Carte des produits Elyne Corp](https://github.com/deharoalexandre-cyber/deharoalexandre-cyber)
+
 **L’agent propose. EAS vérifie les droits, décide avant l’action et conserve la preuve.**
 
 EAS Défense est le plan de contrôle local d’Elyne Corp pour les systèmes agentiques. Il associe identités, capacités, politique signée, médiation des actions et journal vérifiable. La version Windows **R45** est proposée en évaluation technique accompagnée. Le port Linux poursuit sa qualification de laboratoire.
