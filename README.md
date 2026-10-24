@@ -37,16 +37,21 @@ Elyne Cyber est une défense locale complémentaire dans un service séparé. El
 | **R43** | Accès direct à un canari fichier interdit refusé depuis une sonde confinée ; intégrité du canari contrôlée. |
 | **R44** | Connexion réseau ciblée refusée depuis le processus confiné, avec contrôle positif de la connectivité. |
 | **R45** | Identité AppContainer d’un processus enfant conservée et arrêt vérifié sous pilotage EAS. |
-| **R48** | Accès fichier permis et refusés observés après pose d’ACL de laboratoire. |
+| **R48** | Accès fichier permis et refusés observés sur la lignée R42/R43 après pose des ACL par l’installateur de laboratoire corrigé R46, distincte du candidat R45. |
 | **P0-05, R10** | Elyne Cyber est resté actif après arrêt d’EAS. Cet essai n’a pas été rejoué sur R45. |
 | **Red R21B** | Sur un clone Windows antérieur : 19/19 jobs classés « défendus » ; 43/52 étapes défendues et **9 indéterminées**. Cette campagne ne qualifie pas R45. |
 
 Ces essais ont des périmètres distincts. Aucun n’établit à lui seul le confinement intégral d’un agent tiers complet, ni une protection de tous les chemins non raccordés. [Détail des résultats et limites](docs/evidence.md).
 
+## Cartographie OWASP Agentic 2026
+
+Notre grille interne suit **86 mesures** reliées aux dix catégories du référentiel OWASP. Les dix catégories ont au moins une atténuation identifiée ; **26 lignes** ont une validation directe bornée, **47** sont partielles, **10** restent à réaliser et **3** dépendent d'une organisation exploitante. Ces chiffres rassemblent des preuves de plusieurs versions jusqu'à R48 : ils ne constituent ni une certification OWASP ni 26 validations du même build R45. [Consulter les 86 mesures, leurs justifications et leurs limites](docs/owasp-agentic-2026.md).
+
 ## Documentation
 
 - [Architecture et frontières de confiance](docs/architecture.md)
 - [Synthèse expurgée des qualifications](docs/evidence.md)
+- [Cartographie détaillée OWASP Agentic 2026](docs/owasp-agentic-2026.md)
 - [Notice de propriété et de distribution](NOTICE.md)
 
 ## Questions fréquentes

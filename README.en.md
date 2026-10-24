@@ -37,16 +37,21 @@ Elyne Cyber is a complementary local defense running as a separate service. Elyn
 | **R43** | Direct access to a forbidden file canary was denied from a confined probe; canary integrity was checked. |
 | **R44** | A targeted network connection was denied from the confined process, with a positive connectivity control. |
 | **R45** | A child retained its AppContainer identity and termination was verified under EAS control. |
-| **R48** | Allowed and denied file access were observed after laboratory ACL setup. |
+| **R48** | Allowed and denied file access were observed on the R42/R43 lineage after the corrected R46 laboratory installer set the ACLs, separate from the R45 candidate. |
 | **P0-05, R10** | Elyne Cyber stayed active after EAS stopped. This test was not replayed on R45. |
 | **Red R21B** | On an earlier Windows clone: 19/19 jobs classified as “defended”; 43/52 steps defended and **9 undetermined**. This campaign does not qualify R45. |
 
 These tests have different scopes. None alone establishes full confinement of an entire third-party agent or protection of every path not connected to EAS. [Results and limitations](docs/evidence.en.md).
 
+## OWASP Agentic 2026 mapping
+
+Our internal matrix tracks **86 measures** across the ten OWASP risk categories. Every category has at least one identified mitigation; **26 measures** have directly observed, scoped validation, **47** are partial, **10** remain to be completed, and **3** depend on the deploying organization's process. These figures combine evidence from several versions through R48. They are neither an OWASP certification nor 26 validations of the same R45 build. [Read the full 86-measure mapping, rationale, and limits](docs/owasp-agentic-2026.en.md).
+
 ## Documentation
 
 - [Architecture and trust boundaries](docs/architecture.en.md)
 - [Redacted qualification summary](docs/evidence.en.md)
+- [Detailed OWASP Agentic 2026 mapping](docs/owasp-agentic-2026.en.md)
 - [Proprietary notice and distribution terms](NOTICE.md)
 
 ## FAQ

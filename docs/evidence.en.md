@@ -9,7 +9,7 @@ This document summarizes laboratory observations without publishing raw receipts
 | **R43 — Windows laboratory clone** | Direct file-canary access was denied from an AppContainer probe; the canary was unchanged after the test. | Targeted denial, not proof that every file access is confined. |
 | **R44 — Windows laboratory clone** | A targeted connection was denied from the confined process; a positive connectivity control was performed. | Does not establish denial for every network destination or path; attribution to the exact Windows component remains limited. |
 | **R45 — Windows laboratory clone** | A child process retained its AppContainer identity; its termination was verified when EAS stopped the managed process. | Does not qualify every process tree lifecycle or a complete third-party agent. |
-| **R48 — Windows laboratory clone** | Allowed and denied file accesses were observed after laboratory ACL setup. | Depends on the tested ACLs and resource; it is not a general guarantee for every installation. |
+| **R48 — Windows laboratory clone** | Two allowed file accesses and two denied opens were observed on the R42/R43 lineage after the corrected R46 laboratory installer set the ACLs, without a manual change to the allowed area during R48. | Depends on the tested ACLs and resource; this was not an R45 replay or a qualification of the commercial installer. |
 | **P0-05 — R10** | Elyne Cyber remained active after the EAS service stopped. | Earlier test, not replayed on R45; not proof of complete OS privilege independence. |
 | **Red R21B — earlier Windows clone** | 19/19 jobs classified as “defended”; 43/52 steps defended and 9 undetermined. | The 9 steps are not PASS. This campaign does not qualify R45. |
 
